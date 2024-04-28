@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='style/myhome.css')}}">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <img src="static\style\FT.png" class="logo">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Portfolio</a></li>
+                </ul>
+                <img src="static\style\Farm.png" class="farm-icon">
+            </nav>
+            <div class="text-box">
+                <p>Your Personal Agri Advisor!</p>
+                <h1>FarmTech</h1>
+                <h3>Unlock Your Crop's Future With Precision Prediction</h3>
+                <div class="row">
+                 <form action="/Predict">
+                  <input type="submit" id="Predict" name="Predict" action="/Predict" value="PREDICT">
+                 </form><span>&#x27F6;</span>
+                   <!-- <form action="/Predict">
+                       <button type="submit">Predict</button>
+                    </form> -->
+                     <span>Let's Start New Journey <br>With FarmTech</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

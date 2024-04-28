@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="{{url_for('static',filename='style/prdiction_css.css')}}">
+  </head>
+  <body>
+      <div class="container">
+          <nav>
+              <img src="static\style\FT.png" class="logo">
+              <ul>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact</a></li>
+                  <li><a href="">Portfolio</a></li>
+              </ul>
+              <img src="static\style\Farm.png" class="farm-icon">
+          </nav>
+          <div class="text-box">
+              <h3>BASED ON INFORMATION PROVIDED</h3>
+              <h3>YOU SHOULD GROW</h3>
+              <br>
+              <h1>{{prediction}}</h1>
+          </div>
+      </div>
+  </body>
+</html>
