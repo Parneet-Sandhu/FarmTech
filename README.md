@@ -10,3 +10,8 @@ In the Jupyter Notebook phase of the project, the focus was on preparing the dat
 
 Moving on to web application development, Flask was employed to construct the backend server responsible for communicating with the trained model. API endpoints were meticulously defined to handle incoming requests from the frontend, enabling seamless interaction between the user interface and the predictive model. On the frontend side, HTML templates and CSS stylesheets were utilized to craft an intuitive and visually appealing user interface. The frontend interface provided users with a platform to input environmental factors of interest, initiating the prediction process. Through the integration of Flask backend and HTML/CSS frontend components, the Crop Prediction Web Application was brought to life, offering users a convenient and efficient tool for making informed decisions regarding crop selection based on environmental conditions.
 
+![FarmTech](https://github.com/Parneet-Sandhu/Crop-Prediction/blob/main/Screenshot%202024-04-28%20215306.png?raw=true)
+
+![index](https://github.com/Parneet-Sandhu/Crop-Prediction/blob/main/Screenshot%202024-04-28%20215400.png?raw=true)
+
+![predict](https://github.com/Parneet-Sandhu/Crop-Prediction/blob/main/Screenshot%202024-04-28%20215438.png?raw=true)
