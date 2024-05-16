@@ -1,4 +1,4 @@
-# Crop-Prediction
+# FarmTech
 # Overview
 This project focuses on predicting the most suitable crop to grow based on environmental factors such as nitrogen levels, phosphorus levels, potassium levels, temperature, humidity, rainfall, and pH. The prediction model is deployed as a web application using Flask for the backend and HTML/CSS for the frontend.
 
